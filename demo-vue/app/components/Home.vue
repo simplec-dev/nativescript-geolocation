@@ -22,7 +22,7 @@
 </template>
 
 <script>
-    import * as geolocation from "nativescript-geolocation";
+    import * as geolocation from "nativescript-ssi-geolocation";
     import { Accuracy } from "tns-core-modules/ui/enums";
 
     export default {

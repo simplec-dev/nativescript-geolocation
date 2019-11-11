@@ -1,4 +1,4 @@
-import * as geolocation from "nativescript-geolocation";
+import * as geolocation from "nativescript-ssi-geolocation";
 import { Observable } from "tns-core-modules/data/observable";
 import { ObservableArray } from "tns-core-modules/data/observable-array";
 

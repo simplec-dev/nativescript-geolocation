@@ -2,6 +2,6 @@
     "main": "main.js",
     "android": {
         "v8Flags": "--expose_gc",
-        "requireModules": ["nativescript-geolocation"]
+        "requireModules": ["nativescript-ssi-geolocation"]
     }
 }

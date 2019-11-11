@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import * as geolocation from "nativescript-geolocation";
+import * as geolocation from "nativescript-ssi-geolocation";
 import { Accuracy } from "tns-core-modules/ui/enums";
 
 @Component({

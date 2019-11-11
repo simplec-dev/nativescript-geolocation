@@ -65,7 +65,7 @@ if (typeof CLLocationManager !== 'undefined' && CLLocationManager) {
 }
 
 function locationFromCLLocation(clLocation) {
-    var geolocation = require("nativescript-geolocation");
+    var geolocation = require("nativescript-ssi-geolocation");
     var Location = geolocation.Location;
 
     let location = new Location();

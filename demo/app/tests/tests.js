@@ -4,7 +4,7 @@ var MockLocationManager = require(mockLocationManagerPath).MockLocationManager;
 
 describe("location class", function () {
     it("can be instantiated", function () {
-        var geoLocation = require("nativescript-geolocation");
+        var geoLocation = require("nativescript-ssi-geolocation");
         var Location = geoLocation.Location;
         var nativeLocation = null;
         if (MockLocationManager.getNewLocation) {
@@ -21,7 +21,7 @@ describe("location class", function () {
 
 describe("geolocation", function () {
     beforeEach(function () {
-        geolocation = require("nativescript-geolocation");
+        geolocation = require("nativescript-ssi-geolocation");
         geolocation.setCustomLocationManager(MockLocationManager);
     });
 

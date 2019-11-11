@@ -1,8 +1,8 @@
 # NativeScript Geolocation ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png) 
 
 
-[![npm](https://img.shields.io/npm/v/nativescript-geolocation.svg)](https://www.npmjs.com/package/nativescript-geolocation)
-[![npm](https://img.shields.io/npm/dm/nativescript-geolocation.svg)](https://www.npmjs.com/package/nativescript-geolocation)
+[![npm](https://img.shields.io/npm/v/nativescript-geolocation.svg)](https://www.npmjs.com/package/nativescript-ssi-geolocation)
+[![npm](https://img.shields.io/npm/dm/nativescript-geolocation.svg)](https://www.npmjs.com/package/nativescript-ssi-geolocation)
 [![Build Status](https://travis-ci.org/NativeScript/nativescript-geolocation.svg?branch=master)](https://travis-ci.org/NativeScript/nativescript-geolocation)
 
 Geolocation plugin to use for getting current location, monitor movement, etc.
@@ -12,7 +12,7 @@ Geolocation plugin to use for getting current location, monitor movement, etc.
 In Command prompt / Terminal navigate to your application root folder and run:
 
 ```
-tns plugin add nativescript-geolocation
+tns plugin add nativescript-ssi-geolocation
 ```
 
 ## Usage 
@@ -26,13 +26,13 @@ In short here are the steps:
 
 *TypeScript*
 ``` 
-import * as geolocation from "nativescript-geolocation";
+import * as geolocation from "nativescript-ssi-geolocation";
 import { Accuracy } from "tns-core-modules/ui/enums"; // used to describe at what accuracy the location should be get
 ```
 
 *Javascript*
 ``` 
-var geolocation = require("nativescript-geolocation");
+var geolocation = require("nativescript-ssi-geolocation");
 ```
 
 ### Request permissions

@@ -1,4 +1,4 @@
-import * as geolocation from "nativescript-geolocation";
+import * as geolocation from "nativescript-ssi-geolocation";
 import { Accuracy } from "tns-core-modules/ui/enums";
 import { EventData } from "tns-core-modules/data/observable";
 import { Page } from "tns-core-modules/ui/page";

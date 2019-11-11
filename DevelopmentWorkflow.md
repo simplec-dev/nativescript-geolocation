@@ -23,7 +23,7 @@ Basically executing a bunch of commands will be enough for you to start making c
 
 To run and develop using TypeScript demo:
 ```bash
-$ cd nativescript-geolocation/src
+$ cd nativescript-ssi-geolocation/src
 $ npm run demo.ios
 $ npm run demo.android
 ```

@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var geoLocation = require("nativescript-geolocation");
+var geoLocation = require("nativescript-ssi-geolocation");
 var MockLocationManager = {
 };
 MockLocationManager.intervalId = null;

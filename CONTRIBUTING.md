@@ -36,13 +36,13 @@ Before you begin make sure there is an issue for the bug or feature you will be 
 
 Following these steps is the best way to get your code included in the project:
 
-1. Fork and clone the nativescript-geolocation repo:
+1. Fork and clone the nativescript-ssi-geolocation repo:
 ```bash
 git clone https://github.com/<your-git-username>/nativescript-geolocation.git
 # Navigate to the newly cloned directory
-cd nativescript-geolocation
+cd nativescript-ssi-geolocation
 # Add an "upstream" remote pointing to the original repo.
-git remote add upstream https://github.com/NativeScript/nativescript-geolocation.git
+git remote add upstream https://github.com/simplec-dev/nativescript-geolocation
 ```
 
 2. Read our [development workflow guide](DevelopmentWorkflow.md) for local setup

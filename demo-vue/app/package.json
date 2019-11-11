@@ -3,6 +3,6 @@
   "android": {
     "v8Flags": "--expose_gc",
     "markingMode": "none",
-    "requireModules": ["nativescript-geolocation"]
+    "requireModules": ["nativescript-ssi-geolocation"]
   }
 }
